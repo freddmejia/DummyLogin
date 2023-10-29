@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  DummyLogin
+
+  Created by freddy mejia on 28/10/23.
+  
+*/
+"write_your_email" = "Write your e-mail@";
+"write_your_password" = "Write your password";
+"login" = "Login";

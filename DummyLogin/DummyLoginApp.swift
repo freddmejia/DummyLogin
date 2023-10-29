@@ -25,7 +25,8 @@ struct DummyLoginApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
+            //ContentView()
         }
         .modelContainer(sharedModelContainer)
     }

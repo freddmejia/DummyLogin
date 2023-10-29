@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		989E86502AEE55BE00AE211D /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989E864F2AEE55BE00AE211D /* MainAppView.swift */; };
 		98B1C01F2AED50B80080ED96 /* DummyLoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B1C01E2AED50B80080ED96 /* DummyLoginApp.swift */; };
 		98B1C0212AED50B80080ED96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B1C0202AED50B80080ED96 /* ContentView.swift */; };
 		98B1C0232AED50B80080ED96 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B1C0222AED50B80080ED96 /* Item.swift */; };
@@ -15,6 +16,8 @@
 		98B1C0332AED50BB0080ED96 /* DummyLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B1C0322AED50BB0080ED96 /* DummyLoginTests.swift */; };
 		98B1C03D2AED50BB0080ED96 /* DummyLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B1C03C2AED50BB0080ED96 /* DummyLoginUITests.swift */; };
 		98B1C03F2AED50BB0080ED96 /* DummyLoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B1C03E2AED50BB0080ED96 /* DummyLoginUITestsLaunchTests.swift */; };
+		98B1C04C2AED589E0080ED96 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B1C04B2AED589E0080ED96 /* LoginView.swift */; };
+		98B1C04F2AED5F3E0080ED96 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98B1C0512AED5F3E0080ED96 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		989E864F2AEE55BE00AE211D /* MainAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppView.swift; sourceTree = "<group>"; };
 		98B1C01B2AED50B80080ED96 /* DummyLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DummyLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B1C01E2AED50B80080ED96 /* DummyLoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyLoginApp.swift; sourceTree = "<group>"; };
 		98B1C0202AED50B80080ED96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +51,9 @@
 		98B1C0382AED50BB0080ED96 /* DummyLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DummyLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B1C03C2AED50BB0080ED96 /* DummyLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyLoginUITests.swift; sourceTree = "<group>"; };
 		98B1C03E2AED50BB0080ED96 /* DummyLoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyLoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98B1C04B2AED589E0080ED96 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		98B1C0502AED5F3E0080ED96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		98B1C0522AED60470080ED96 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +84,7 @@
 		98B1C0122AED50B80080ED96 = {
 			isa = PBXGroup;
 			children = (
+				98B1C0512AED5F3E0080ED96 /* Localizable.strings */,
 				98B1C01D2AED50B80080ED96 /* DummyLogin */,
 				98B1C0312AED50BB0080ED96 /* DummyLoginTests */,
 				98B1C03B2AED50BB0080ED96 /* DummyLoginUITests */,
@@ -103,6 +111,8 @@
 				98B1C0242AED50BB0080ED96 /* Assets.xcassets */,
 				98B1C0262AED50BB0080ED96 /* DummyLogin.entitlements */,
 				98B1C0272AED50BB0080ED96 /* Preview Content */,
+				98B1C04B2AED589E0080ED96 /* LoginView.swift */,
+				989E864F2AEE55BE00AE211D /* MainAppView.swift */,
 			);
 			path = DummyLogin;
 			sourceTree = "<group>";
@@ -213,11 +223,12 @@
 			};
 			buildConfigurationList = 98B1C0162AED50B80080ED96 /* Build configuration list for PBXProject "DummyLogin" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = es;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 98B1C0122AED50B80080ED96;
 			productRefGroup = 98B1C01C2AED50B80080ED96 /* Products */;
@@ -237,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98B1C0292AED50BB0080ED96 /* Preview Assets.xcassets in Resources */,
+				98B1C04F2AED5F3E0080ED96 /* Localizable.strings in Resources */,
 				98B1C0252AED50BB0080ED96 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +275,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				98B1C0212AED50B80080ED96 /* ContentView.swift in Sources */,
+				989E86502AEE55BE00AE211D /* MainAppView.swift in Sources */,
 				98B1C0232AED50B80080ED96 /* Item.swift in Sources */,
+				98B1C04C2AED589E0080ED96 /* LoginView.swift in Sources */,
 				98B1C01F2AED50B80080ED96 /* DummyLoginApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,12 +314,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		98B1C0512AED5F3E0080ED96 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98B1C0502AED5F3E0080ED96 /* en */,
+				98B1C0522AED60470080ED96 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		98B1C0402AED50BB0080ED96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -367,6 +394,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
