@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98459DB52B00EE2000A6FEAE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459DB42B00EE2000A6FEAE /* Post.swift */; };
+		98459DB82B00EFEF00A6FEAE /* ResultApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459DB72B00EFEF00A6FEAE /* ResultApi.swift */; };
+		98459DBB2B00F01E00A6FEAE /* InterfaceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459DBA2B00F01E00A6FEAE /* InterfaceApi.swift */; };
+		98459DBF2B0102F700A6FEAE /* FillValidates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459DBE2B0102F700A6FEAE /* FillValidates.swift */; };
 		989E86502AEE55BE00AE211D /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989E864F2AEE55BE00AE211D /* MainAppView.swift */; };
+		98A6DE572AFE69630013C307 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6DE562AFE69630013C307 /* RegisterView.swift */; };
+		98A6DE592AFE69880013C307 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6DE582AFE69880013C307 /* ForgotPasswordView.swift */; };
 		98B1C01F2AED50B80080ED96 /* DummyLoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B1C01E2AED50B80080ED96 /* DummyLoginApp.swift */; };
 		98B1C0212AED50B80080ED96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B1C0202AED50B80080ED96 /* ContentView.swift */; };
 		98B1C0232AED50B80080ED96 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B1C0222AED50B80080ED96 /* Item.swift */; };
@@ -38,7 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98459DB42B00EE2000A6FEAE /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		98459DB72B00EFEF00A6FEAE /* ResultApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultApi.swift; sourceTree = "<group>"; };
+		98459DBA2B00F01E00A6FEAE /* InterfaceApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceApi.swift; sourceTree = "<group>"; };
+		98459DBE2B0102F700A6FEAE /* FillValidates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillValidates.swift; sourceTree = "<group>"; };
 		989E864F2AEE55BE00AE211D /* MainAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppView.swift; sourceTree = "<group>"; };
+		98A6DE562AFE69630013C307 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		98A6DE582AFE69880013C307 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		98B1C01B2AED50B80080ED96 /* DummyLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DummyLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B1C01E2AED50B80080ED96 /* DummyLoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyLoginApp.swift; sourceTree = "<group>"; };
 		98B1C0202AED50B80080ED96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +93,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98459DB02B00ED3D00A6FEAE /* data */ = {
+			isa = PBXGroup;
+			children = (
+				98459DB92B00F01200A6FEAE /* interface */,
+				98459DB32B00EE1300A6FEAE /* codable */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		98459DB32B00EE1300A6FEAE /* codable */ = {
+			isa = PBXGroup;
+			children = (
+				98459DB42B00EE2000A6FEAE /* Post.swift */,
+				98459DB72B00EFEF00A6FEAE /* ResultApi.swift */,
+			);
+			path = codable;
+			sourceTree = "<group>";
+		};
+		98459DB92B00F01200A6FEAE /* interface */ = {
+			isa = PBXGroup;
+			children = (
+				98459DBA2B00F01E00A6FEAE /* InterfaceApi.swift */,
+			);
+			path = interface;
+			sourceTree = "<group>";
+		};
+		98459DBC2B0102D300A6FEAE /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				98459DBE2B0102F700A6FEAE /* FillValidates.swift */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		98A6DE542AFE694D0013C307 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				98A6DE552AFE69580013C307 /* views */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		98A6DE552AFE69580013C307 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				98B1C04B2AED589E0080ED96 /* LoginView.swift */,
+				98A6DE562AFE69630013C307 /* RegisterView.swift */,
+				98A6DE582AFE69880013C307 /* ForgotPasswordView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		98B1C0122AED50B80080ED96 = {
 			isa = PBXGroup;
 			children = (
@@ -105,13 +169,15 @@
 		98B1C01D2AED50B80080ED96 /* DummyLogin */ = {
 			isa = PBXGroup;
 			children = (
+				98459DBC2B0102D300A6FEAE /* utility */,
+				98459DB02B00ED3D00A6FEAE /* data */,
+				98A6DE542AFE694D0013C307 /* ui */,
 				98B1C01E2AED50B80080ED96 /* DummyLoginApp.swift */,
 				98B1C0202AED50B80080ED96 /* ContentView.swift */,
 				98B1C0222AED50B80080ED96 /* Item.swift */,
 				98B1C0242AED50BB0080ED96 /* Assets.xcassets */,
 				98B1C0262AED50BB0080ED96 /* DummyLogin.entitlements */,
 				98B1C0272AED50BB0080ED96 /* Preview Content */,
-				98B1C04B2AED589E0080ED96 /* LoginView.swift */,
 				989E864F2AEE55BE00AE211D /* MainAppView.swift */,
 			);
 			path = DummyLogin;
@@ -275,10 +341,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				98B1C0212AED50B80080ED96 /* ContentView.swift in Sources */,
+				98A6DE592AFE69880013C307 /* ForgotPasswordView.swift in Sources */,
+				98459DBF2B0102F700A6FEAE /* FillValidates.swift in Sources */,
+				98459DBB2B00F01E00A6FEAE /* InterfaceApi.swift in Sources */,
 				989E86502AEE55BE00AE211D /* MainAppView.swift in Sources */,
+				98A6DE572AFE69630013C307 /* RegisterView.swift in Sources */,
 				98B1C0232AED50B80080ED96 /* Item.swift in Sources */,
+				98459DB52B00EE2000A6FEAE /* Post.swift in Sources */,
 				98B1C04C2AED589E0080ED96 /* LoginView.swift in Sources */,
 				98B1C01F2AED50B80080ED96 /* DummyLoginApp.swift in Sources */,
+				98459DB82B00EFEF00A6FEAE /* ResultApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

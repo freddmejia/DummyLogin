@@ -8,3 +8,18 @@
 "write_your_email" = "Escribe tu e-mail@";
 "write_your_password" = "Escribe tu contraseña";
 "login" = "Acceder";
+"register" = "Registrarme";
+"r_password" = "Repite tu contraseña";
+"forgot_pass_init" = "Iniciar";
+"title_create_account" = "Crear cuenta";
+"title_forgot_password" = "Olvidé la contraseña";
+
+"title_new_user" = "Soy nuevo";
+"title_forgot_pass" = "Olvidé contraseña";
+
+/*handle error message*/
+"login_values_fill" = "Completa los campos para continuar";
+"login_email_error" = "E-mail incorrecto, escribe uno válido";
+
+/*hanble action buttons message*/
+"ok_btn" = "Ok";
